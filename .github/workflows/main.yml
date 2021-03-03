@@ -42,6 +42,7 @@ jobs:
         run: echo ${{ steps.docker_build.outputs.digest }}
         
     build:
+    need: docker
     steps:
       - name: demo
         run: echo "demo"
