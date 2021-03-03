@@ -42,5 +42,3 @@ jobs:
         run: echo ${{ steps.docker_build.outputs.digest }}
         
 jobs:
-  build:
-    runs-on: ubuntu-latest
