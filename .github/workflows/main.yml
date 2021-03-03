@@ -42,7 +42,7 @@ jobs:
         run: echo ${{ steps.docker_build.outputs.digest }}
         
     build:
-    runs-on: ubuntu-latest
+    runs-on: centos-latest
     steps:
       - name: demo
         run: echo "demo"
