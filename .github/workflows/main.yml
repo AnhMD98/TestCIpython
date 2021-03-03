@@ -28,6 +28,9 @@ jobs:
             ${{ runner.os }}-buildx-
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v2
+jobs:
+  build:
+    runs-on: ubuntu-latest
         id: docker_build
         with:
           context: ./
