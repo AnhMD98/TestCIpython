@@ -41,13 +41,8 @@ jobs:
       - name: Verify
         run: echo ${{ steps.docker_build.outputs.digest }}
         
-    build:
-        needs: setup
-        runs-on: ubuntu-latest
-        steps:
-          run: " hello " 
-      test:
-        needs: build
-        runs-on: ubuntu-latest
-        steps:
-          run: echo ${{ steps.docker_build.outputs.digest }}
+    docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
