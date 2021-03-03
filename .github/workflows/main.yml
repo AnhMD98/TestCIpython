@@ -40,3 +40,6 @@ jobs:
 
       - name: Verify
         run: echo ${{ steps.docker_build.outputs.digest }}
+        
+    build:
+      runs-on: ubuntu_latest
