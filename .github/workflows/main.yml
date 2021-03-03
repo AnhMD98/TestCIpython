@@ -42,4 +42,12 @@ jobs:
         run: echo ${{ steps.docker_build.outputs.digest }}
         
     build:
-      runs-on: ubuntu_latest
+        needs: setup
+        runs-on: ubuntu-latest
+        steps:
+          - run: ./build_server.sh
+      test:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+          - run: ./test_server.sh
