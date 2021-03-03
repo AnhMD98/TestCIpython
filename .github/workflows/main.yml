@@ -45,7 +45,7 @@ jobs:
         needs: setup
         runs-on: ubuntu-latest
         steps:
-          run: echo ${{ steps.docker_build.outputs.digest }}
+          run: " hello " 
       test:
         needs: build
         runs-on: ubuntu-latest
