@@ -50,5 +50,4 @@ jobs:
      steps:
       - name: demo
         run: |
-echo "nothing"
-
+        echo "nothing"
