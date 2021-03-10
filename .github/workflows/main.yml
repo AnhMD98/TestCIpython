@@ -12,4 +12,5 @@ jobs:
           cd /home/demo/Desktop/
           pwd
           ls -la
+          apt-get update
       
