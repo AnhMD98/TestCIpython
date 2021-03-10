@@ -9,7 +9,5 @@ jobs:
     steps:
       - name: demo
         run: cd Desktop 
-              pwd
-              ls
   
       
