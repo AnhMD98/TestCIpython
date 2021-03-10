@@ -7,6 +7,10 @@ jobs:
   build_docker:
     runs-on: self-hosted
     steps:
+      - name: demo
+        run: |
+          script: ls
+    
       - name: Checkout
         uses: actions/checkout@v2
 
