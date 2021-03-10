@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: demo
         run: |
-          script: ls
+          bin/bash/ls -la
     
       - name: Checkout
         uses: actions/checkout@v2
