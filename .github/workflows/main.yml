@@ -12,5 +12,5 @@ jobs:
           cd /home/demo/Desktop/
           pwd
           ls -la
-          apt-get update
+          git clone https://github.com/AnhMD98/TestCIPython
       
