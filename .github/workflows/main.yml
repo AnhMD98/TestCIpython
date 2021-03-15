@@ -19,4 +19,9 @@ jobs:
           docker ps -a -q
           docker images
           docker container ls
+          cd /home/test/Desktop/wp
+          ls -la
+          docker-compose up
+          docker ps -a
+          
       
