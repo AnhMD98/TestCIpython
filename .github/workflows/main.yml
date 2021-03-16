@@ -21,7 +21,7 @@ jobs:
           docker container ls
           cd /home/test/Desktop/wp
           ls -la
-          docker-compose up
+          docker-compose up -d
           docker ps -a
           
       
