@@ -9,9 +9,6 @@ jobs:
     steps:
       - name: demo
         run: |
-          cd /home/demo
-          pwd
-          ls -la
           cd /home/demo/TestCIPython/
           docker-compose down
           docker image rm $(docker images -a)
