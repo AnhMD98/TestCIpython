@@ -12,6 +12,7 @@ jobs:
           cd /home/sysadmin
           pwd
           ls -la
+          rm -rf TestCIPython
           git clone https://github.com/AnhMD98/TestCIPython
           ping -c 5 8.8.8.8
           pwd
