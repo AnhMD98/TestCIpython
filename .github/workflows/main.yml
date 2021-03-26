@@ -13,6 +13,7 @@ jobs:
           docker-compose down
           docker image rm $(docker images -a)
           cd /home/demo
+          pwd
           rm -rf TestCIPython
           git clone https://github.com/AnhMD98/TestCIPython
           ls -la
