@@ -12,9 +12,12 @@ jobs:
           cd /home/demo
           pwd
           ls -la
-          rm -rf TestCIPython
           git clone https://github.com/AnhMD98/TestCIPython
           ls -la
+          cd /home/demo/TestCIPython/
+          ls -la
+          docker-compose up -d
+          docker ps -a
           
           
         
