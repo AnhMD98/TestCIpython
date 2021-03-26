@@ -14,6 +14,9 @@ jobs:
           rm -rf TestCIPython
           docker ps -a
           docker images
+          docker container stop $(docker ps -a -q)
+          docker container rm $(docker ps -a -q)
+          docker image rm $(docker images -a)
           git clone https://github.com/AnhMD98/TestCIPython
           ls -la
           cd /home/demo/TestCIPython/
