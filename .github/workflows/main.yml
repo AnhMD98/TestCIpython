@@ -19,7 +19,7 @@ jobs:
           docker ps -a -q
           docker images
           docker container ls
-          docker-compose --version
+        
           
           
       
