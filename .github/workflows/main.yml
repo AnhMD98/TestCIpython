@@ -18,7 +18,7 @@ jobs:
           cd /home/demo/TestCIPython/
           ls -la
           docker-compose up -d
-          docker ps -a
+          docker ps 
           
           
         
