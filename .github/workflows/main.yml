@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: demo
         run: |
-          cd /home/test/Desktop/
+          cd /home/sysadmin
           pwd
           ls -la
           git clone https://github.com/AnhMD98/TestCIPython
@@ -19,9 +19,6 @@ jobs:
           docker ps -a -q
           docker images
           docker container ls
-          cd /home/test/Desktop/wp
-          ls -la
-          docker-compose up -d
-          docker ps -a
+          
           
       
