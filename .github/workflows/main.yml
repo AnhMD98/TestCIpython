@@ -12,6 +12,8 @@ jobs:
           cd /home/demo
           pwd
           rm -rf TestCIPython
+          docker ps -a
+          docker images
           git clone https://github.com/AnhMD98/TestCIPython
           ls -la
           cd /home/demo/TestCIPython/
