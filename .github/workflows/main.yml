@@ -16,7 +16,7 @@ jobs:
           docker images
           git clone https://github.com/AnhMD98/TestCIPython
           ls -la
-          cd /home/demo/TestCIPython/
+          cd /home/sysadmin/TestCIPython/
           ls -la
           
           
