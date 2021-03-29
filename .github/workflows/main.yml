@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: demo
         run: |
-          cd /home/demo
+          cd /home/sysadmin
           pwd
           rm -rf TestCIPython
           docker ps -a
@@ -19,8 +19,6 @@ jobs:
           ls -la
           cd /home/demo/TestCIPython/
           ls -la
-          docker-compose up -d
-          docker ps 
           
           
         
