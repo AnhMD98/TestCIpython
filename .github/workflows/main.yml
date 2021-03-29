@@ -3,8 +3,16 @@ on:
   release:
     types: [published]
 jobs:
+  
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v2
       
   build_docker:
+    needs:
+      - build
     runs-on: self-hosted
     steps:
       - name: demo
