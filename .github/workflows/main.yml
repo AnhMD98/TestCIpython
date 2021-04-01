@@ -26,6 +26,7 @@ jobs:
           ls -la
           cd /home/sysadmin/docker_cloud
           ls -la
+          wget https://github.com/AnhMD98/TestCIpython/releases/download/v1.14/hello
           docker-compose up -d
           
           
