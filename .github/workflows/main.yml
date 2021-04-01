@@ -26,6 +26,7 @@ jobs:
           ls -la
           cd /home/sysadmin/TestCIPython/
           ls -la
+          docker-compose up -d
           
           
         
