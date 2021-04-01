@@ -24,7 +24,7 @@ jobs:
           docker images
           git clone https://github.com/AnhMD98/TestCIPython
           ls -la
-          cd /home/sysadmin/TestCIPython/
+          cd /home/sysadmin/docker_cloud
           ls -la
           docker-compose up -d
           
